@@ -32,6 +32,11 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use Spree for ecommerce
+gem 'spree', '~> 3.2.0'
+gem 'spree_auth_devise', '~> 3.2.0.beta'
+gem 'spree_gateway', '~> 3.2.0.beta'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
